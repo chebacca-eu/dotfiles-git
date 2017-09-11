@@ -36,3 +36,10 @@
 [mergetool]
     keepBackup = false
     prompt = false
+
+
+# --- Filters (to be called from .gitattributes) -------------------------------
+
+# Convert indentation tabs to 4 spaces on checkin (commit)
+[filter "tabsp4"]
+    clean = expand -i -t 4
