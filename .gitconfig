@@ -14,3 +14,10 @@
 [user]
     email = USER_EMAIL
     name = USER_NAME
+
+[core]
+    safecrlf = true
+    autocrlf = input
+    editor = vim
+    pager = less
+    whitespace = tab-in-indent,tabwidth=4
