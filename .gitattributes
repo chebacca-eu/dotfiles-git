@@ -1,0 +1,23 @@
+# ------------------------------------------------------------------------------
+#  This file assigns global attributes to the specified files and directories
+#
+#  It should be saved in the path indicated by the core.attributesFile
+#  option in the ~/.gitconfig file (e.g., in your home directory).
+#
+#  See Git documentation (https://git-scm.com/docs/gitattributes) for further
+#  info.
+#
+#  Author: Chema Barcala (https://github.com/chebacca-eu)
+# ------------------------------------------------------------------------------
+
+
+# Default
+* text=auto
+
+# Text files
+*.md text
+*.txt text
+
+# Binary files
+*.jpg binary
+*.png binary

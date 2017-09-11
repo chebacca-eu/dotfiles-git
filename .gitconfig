@@ -18,6 +18,8 @@
 [core]
     safecrlf = true
     autocrlf = input
+    excludesFile = ~/.gitignore
+    attributesFile = ~/.gitattributes
     editor = vim
     pager = less
     whitespace = tab-in-indent,tabwidth=4

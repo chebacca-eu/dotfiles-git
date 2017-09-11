@@ -1,0 +1,19 @@
+# ------------------------------------------------------------------------------
+#  This file globally specifies files not to be tracked by Git
+#
+#  It should be saved in the path indicated by the core.excludesFile option
+#  in the ~/.gitconfig file (e.g., in your home directory).
+#
+#  See Git documentation (https://git-scm.com/docs/gitignore) for further info.
+#
+#  Author: Chema Barcala (https://github.com/chebacca-eu)
+# ------------------------------------------------------------------------------
+
+
+# Git
+*.orig
+
+# Other
+.directory
+*.kate-swp
+*.swp
