@@ -23,3 +23,16 @@
     editor = vim
     pager = less
     whitespace = tab-in-indent,tabwidth=4
+
+[diff]
+    tool = kdiff3
+
+[difftool]
+    prompt = false
+
+[merge]
+    tool = kdiff3
+
+[mergetool]
+    keepBackup = false
+    prompt = false
